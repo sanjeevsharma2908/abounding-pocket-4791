@@ -1,8 +1,144 @@
 #footer{
-
-    border: 1px solid red;
     background-color: #545871;
 }
 #footer-child-1{
     display: flex;
+   
+}
+.text-white{
+    cursor: pointer ;
+    margin-left: 10px;
+    margin-top:20px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+#input{
+    border-radius: 2px 0 0 2px;
+    text-align: start;
+    font-size: 12px;
+    height: 0px;
+    width: 300px;
+    margin-top: 11px;
+    border:0px;
+    padding: 16px;
+    margin-left: 10px;
+}
+#sign-up-btn{
+    margin-right:495px;
+    padding: 8px;
+    border:0px;margin-bottom: 3px;
+    border-radius: 0px 2px 2px 0px;
+    background-color: #f0f1f7;
+}
+#sign-up-btn:hover{
+   color: white;
+    background-color: #202340;
+}
+#copy-link-btn{
+    padding: 5px 7px;
+   margin-right: 5px;
+   margin-left: 10px;
+    margin-top: 11px; 
+border-radius: 50px;
+border: 0px;
+}
+#copy-link-btn:hover{
+  color: white;
+  background-color: #202340;
+  cursor: pointer;
+}
+
+hr{
+    height: px;
+}
+#footer-child-2{
+    display: flex;
+}
+#social-media{
+    margin-left: 420px;
+    display: flex;
+    border: 1px solid rd;
+}
+.sm-icons>svg{
+    height: 24px;
+    width: 24px;
+    padding: 5px;
+    fill: white;
+}
+#country-region{
+    margin-top: 30px;
+}
+ /* there are two dropdowns */
+ .dropbtn {
+    background-color: #545871;
+    border: none;
+    cursor: pointer ;
+    margin-left: 10px;
+    margin-top:20px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+  }
+  
+  .dropup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropup-content {
+    border: 1px solid black;
+    display: none;
+    position: absolute;
+    background-color: #f0f1f7;
+    min-width: 160px;
+    bottom: 50px;
+    z-index: 1;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+  }
+  
+  .dropup-content a {
+    color: rgb(60, 55, 55);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   
+  }
+  
+  .dropup-content a:hover {
+    background-color: rgb(255, 255, 255);
+    
+}
+  
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  .dropup:hover .dropbtn {
+    background-color: #545871;
+   
+  }
+  /* Terms and condition section */
+#tandc{
+width: 100%;
+padding: 10px;
+background-color: #f0f1f7;
+}
+#tandc>p{
+margin-bottom: 5px;
+color: #545871;
+font-size: 14px;
+font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+#tandc>a{
+    color: #545871;
+}
+#lecence{
+    width: 100%;
+    display: flex;
+    margin: auto;
 }

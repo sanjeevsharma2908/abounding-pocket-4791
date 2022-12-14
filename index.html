@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/sideBar.css">
-    <link rel="stylesheet" href="style/sideBar.css">
     <link rel="stylesheet" href="style/footer.css">
-    <script src="script/sideBar.js"></script>
+   
     <title>Tol-Mol</title>
 </head>
 <body>
@@ -16,7 +15,8 @@
         <div id="hide-on-scroll">1st time customers save 25% on SHOP.COM exclusive brands using code FIRST25OFF. Max $25 discount. Terms Apply. <a href="">Click Here</a></div>
         <div id="header">
             <div id="header-top">
-                <div id="logo"><img src="resources/assets/asset 0.svg" alt=""></div>
+                <div id="logo">
+					<img id="logo-clicked" src="resources/assets/asset 0.svg" alt=""></div>
                 <div id="all-dept-search-bar">
                     <div id="drop-down"> 
                         <select name="" id="">
@@ -32,62 +32,136 @@
                             <option value="">Auto</option>
                         </select>
                     </div>
-                    <div></div>
+                
                     <div id="search-bar">
                         <input type=text placeholder="Search SHOP.COM....">
                     </div>
                     <div id="lense">
-                        <img src="resources/assets/asset 3.svg" alt="">
+						<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none" /><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
                     </div>
                 </div>
+				<div id="layered-sale">
+					<img src="resources/assets/asset 4.jpeg" alt="">
+				</div>
             </div>
             <div id="header-bottom">
-                <div id="mySidebar" class="sidebar">
-                    <a id="closebtn" href="javascript:void(0)" >×</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Clients</a>
-                    <a href="#">Contact</a>
-                  </div>
-                  
-                  <div id="main">
-                    <button id="openbtn">☰ Category</button>  
-
-                <ul id="nav">
-                    <li>Exclusive Brands</li>
-                    <li>Stores</li>
-                    <li>Deals</li>
-                    <li>SHOP Travel</li>
-                    <li>Department</li>
-                    <li>ShopBuddy</li>
-                    <li>SHOP Local</li>
-                </ul>
-                <div id="user-section">
-                    <img src="resources/assets/asset 4.svg" alt="">
-                    <img src="resources/assets/asset 5.svg" alt="">
-                    <img src="resources/assets/asset 6.svg" alt="">
+                <div id="hamburger-text">
+                    <svg xmlns="http://www.w3.org/2000/svg"                  
+					height="24"                                         viewBox="0 0 24 24"    
+id="hamburger"                                 width="24">                                                 <path d="M0 0h24v24H0z"                                     fill="none"/>   <path                                                       d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                        
+                    </svg> 
+                   <span> Categories</span>
+                </div>
+              <div id="nav">  <ul >
+                <li>Exclusive Brands</li>
+                <li>Stores</li>
+                <li>Deals</li>
+                <li>SHOP Travel</li>
+                <li>Department</li>
+                <li>ShopBuddy</li>
+                <li>SHOP Local</li>
+            </ul></div>
+                <div id="user-section" >
+                    <div class="user-section-svg">
+						<svg  xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg><span>Sign in</span>
+					</div>
+                    <div class="user-section-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24"><path d="M0,0H24V24H0Z" fill="none"/><path d="M12.5,3a9,9,0,0,0-9,9H.5l4,4,4-4h-3a7,7,0,1,1,2.94,5.7L7,19.14A9,9,0,1,0,12.5,3Z"/></svg><span>Order</span>
+                    </div>
+       				<div class="user-section-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg> <span>Cart</span>
+       			 	</div>
                 </div>
             </div>
-
         </div>
-
     </header>
 
-
-    <!-- This is going to be the footer -->
-    <footer>
-        <div id="footer">
-            <div id="footer-child-1">
-               <div>
-                <h2 > Get Email Deals & Earn Cashback</h2>
-               </div>
-               <div> <input type="text" id="input" placeholder="enter email address...."><button>Sign       Up</button></div>
-               <div>
-                <h2> Link To This Page & Tell All Your Friends!</h2><button>Copy Link </button>
-               </div>
-            </div>
-            <div></div>
-        </div>
-    </footer>
 </body>
+  <!-- This is going to be the footer -->
+  <footer>
+	<div id="footer">
+		<div id="footer-child-1">
+		   <div>
+			<h2 class="text-white"> Get Email Deals & Earn Cashback</h2>
+		   </div>
+		   <div> <input type="text" id="input" placeholder="enter email address...."><button id="sign-up-btn">Sign Up</button></div>
+		   <div>
+			<h2 class="text-white"> Link To This Page & Tell All Your Friends!</h2>
+		   </div>
+		   <div><button id="copy-link-btn">Copy Link 
+			</button>
+			</div>
+		</div>
+		<hr>
+		<div id="footer-child-2">
+			<div>
+				<h2 class="text-white">About | Help | Accessibilty Statement | Cantact Us | Partner With Us | Services</h2>
+			</div>
+				<!-- Collapsible dropups  -->
+				<div class="dropup">
+				<button class="dropbtn">Country/Region</button>
+				<div class="dropup-content">
+					<a href="#">Malaysia</a>
+					<a href="#">Singapore</a>
+					<a href="#">Hong Kong</a>
+					<a href="#">Taiwan</a>
+					<a href="#">Australia</a>
+					<a href="#">Uited Kingdom</a>
+					<a href="#">Canada</a>
+					<a href="#">United States</a>
+				</div>
+				</div>
+				<div class="dropup">
+					<button class="dropbtn">Language</button>
+					<div class="dropup-content">
+						<a href="#">Chinese</a>
+						<a href="#">Bhasha Malaysia</a>
+					</div>
+				</div>
+				<div class="dropup">
+					<button class="dropbtn">Connect</button>
+					<div class="dropup-content">
+						<a href="#">Facebook</a>
+						<a href="#">YouTube</a>
+						<a href="#">Instagram</a>
+						<a href="#">Twitter</a>
+					</div>
+				</div>
+				<!-- social-media icon part -->
+				<div>
+				<h2 class="text-white">Own Your Own SHOP Site</h2>
+				</div>
+				<div id="social-media" >
+						<div class="sm-icons">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22"><title>Share via Email</title><path d="M15,10.22l6.7-6.48a1,1,0,0,1,.31.73V17.53a1.12,1.12,0,0,1-.28.7ZM.35,3.71A1,1,0,0,1,1,3.44H21a1,1,0,0,1,.68.27L11,12.06ZM.28,18.23a1,1,0,0,1-.28-.7V4.47a1,1,0,0,1,.31-.73L7,10.22ZM11,14.1l2.8-2.71,7.87,6.89a1,1,0,0,1-.71.29H1a1,1,0,0,1-.71-.29l7.89-6.89Z"/></svg>
+						</div>
+						<div class="sm-icons">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22"><title>Share via Facebook</title><path d="M16.14,0V3.55s-2.63-.26-3.27.73c-.35.55-.14,2.15-.17,3.29h3.46c-.29,1.35-.51,2.25-.72,3.42H12.7V22H7.88V11h-2V7.58h2c.1-2.53.14-5,1.39-6.31C10.67-.16,12,0,16.14,0Z"/></svg>
+						</div>
+						<div class="sm-icons">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22"><title>Share via Twitter</title><path d="M15,2.07a4.64,4.64,0,0,1,3.56,1.42,7.51,7.51,0,0,0,2.31-.78l.55-.31a4.61,4.61,0,0,1-1.47,2.11,2.47,2.47,0,0,1-.49.36h0A8.44,8.44,0,0,0,22,4.18h0a7.3,7.3,0,0,1-1.53,1.75l-.7.55a13.2,13.2,0,0,1-.21,2.94c-1.09,5.06-4.1,8.5-8.83,10a13.59,13.59,0,0,1-6.37.26,17.48,17.48,0,0,1-2.65-.87A9.78,9.78,0,0,1,.4,18.13L0,17.89a7.71,7.71,0,0,0,1.44.05c.45-.07.88-.05,1.29-.14a9.24,9.24,0,0,0,2.71-1A4.8,4.8,0,0,0,6.66,16a3.83,3.83,0,0,1-1.34-.24A4.52,4.52,0,0,1,2.45,12.9c.45,0,1.72.16,2-.09A3.27,3.27,0,0,1,3,12.22,4.33,4.33,0,0,1,.87,8.35l.46.22a4.46,4.46,0,0,0,.95.26,1.31,1.31,0,0,0,.62.06h0c-.23-.27-.6-.44-.83-.73A4.61,4.61,0,0,1,1,4.07,4.8,4.8,0,0,1,1.52,2.9h0a2.61,2.61,0,0,0,.41.47A7.91,7.91,0,0,0,3.29,4.66,13.33,13.33,0,0,0,8.81,7.33a8.11,8.11,0,0,0,2,.26,4.19,4.19,0,0,1,0-2.11,4.48,4.48,0,0,1,2.58-3,6,6,0,0,1,1-.3Z"/></svg>
+						</div>
+						<div class="sm-icons">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22"><title>Share via Pinterest</title><path d="M9.59,14.29c-.18.71-.36,1.46-.54,2.19a15.56,15.56,0,0,1-.61,2.12,11.13,11.13,0,0,1-1.75,3c-.5.57-.39.34-.54.31S6,21.8,6,21.63a17.07,17.07,0,0,1,0-2.86,15,15,0,0,1,.51-3c.41-1.77.81-3.5,1.23-5.29a1.23,1.23,0,0,0,.08-.38,5.33,5.33,0,0,1-.38-1.46A4.76,4.76,0,0,1,7.56,7,2.75,2.75,0,0,1,9.18,5a1.85,1.85,0,0,1,1.49.12,1.66,1.66,0,0,1,.74,1.08,3.81,3.81,0,0,1-.07,1.61c-.23,1-.54,1.83-.8,2.84a3,3,0,0,0-.16,1.55,1.84,1.84,0,0,0,.72,1.08,2.12,2.12,0,0,0,1.4.39,3,3,0,0,0,2.27-1.34,8,8,0,0,0,1.44-4,10,10,0,0,0,.06-1.73,4.79,4.79,0,0,0-1-2.69,4.48,4.48,0,0,0-2.15-1.46,7.06,7.06,0,0,0-3.23-.2,5.68,5.68,0,0,0-4.2,3.06A6.06,6.06,0,0,0,5,8.2a3.71,3.71,0,0,0,.58,2.15,6.31,6.31,0,0,1,.39.54c.16.28,0,.7-.1,1s-.1.87-.54.88a1.33,1.33,0,0,1-.54-.21A4.38,4.38,0,0,1,2.73,9.33a7.59,7.59,0,0,1,0-2.77A7.87,7.87,0,0,1,6.49,1.29,9.12,9.12,0,0,1,9.84.12C10.28.06,10.73,0,11.2,0a8.33,8.33,0,0,1,3.72.69,7.64,7.64,0,0,1,2.55,1.84,7,7,0,0,1,1.59,2.85,6.83,6.83,0,0,1,.34,2,11.63,11.63,0,0,1-.27,2,8,8,0,0,1-3.29,5.53,5.84,5.84,0,0,1-1.5.69,5.45,5.45,0,0,1-1.93.24,4,4,0,0,1-1.7-.49A2.93,2.93,0,0,1,9.59,14.29Z"/></svg>
+						</div>
+				</div>
+		</div>
+	</div>
+	<div id="tandc">
+		<p>© 1997-2022 Market America, Inc. or its affiliates. All other designated trademarks, copyrights, and brands are the property of their respective owners.</p>
+		<p>Only Customers will receive cashback on qualifying purchases. UnFranchise Owners/Shop Consultants will receive increased IBV instead of cashback on qualifying purchases.</p>
+		<a href="#">Privicy Policy |</a>
+		<a href="#"> Terms of Use</a>
+		<a href="#">| Adivertisement Discloser</a>
+		<a href="#">| Return Policy</a>
+		<a href="#">| Shipping Information</a>
+	</div>
+	<hr>
+	<div id="licence">
+
+	</div>
+</footer>
+<script src="script/sideBar.js"></script>
+<script src="script/header.js"></script>
 </html>
