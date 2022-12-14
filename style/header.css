@@ -1,14 +1,12 @@
-div{
-    border: 0px solid green;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 #header{
     background-color: #f0f1f7;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     color: rgb(86, 67, 67);
     font-family: Roboto, Arial, Helvetica, sans-serif;
-}
-#logo>img:hover{
-    
 }
 #hide-on-scroll>a{
     color: white;
@@ -24,9 +22,8 @@ div{
 
 #header-top{
     display: flex;
-   
-    padding-top:18px ;
-    padding-bottom:18px;
+    padding-top:15px ;
+    padding-bottom:0px;
 }
 
 #logo>img{
@@ -35,13 +32,19 @@ div{
  margin-left: 20px;
  padding: 3px 0 6px 0;
 }
+#logo>img:hover{
+    cursor: pointer;
+    
+}
 #all-dept-search-bar{
-    margin-left: 100px;
+    height: 45px;
+    margin-left: 75px;
     display: flex;
-    width: 700px;
-    border: 1px solid black;
+    width: auto;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 50px;
     background-color: white;
+    margin-bottom: 10px;
     
 }
 #drop-down{
@@ -51,74 +54,122 @@ div{
     font-size: 14px;
     text-align:left;
 }
+#all-dept-search-bar:hover{
+    cursor: pointer;
+}
 select{
     border: 0px;
     text-decoration-style: none;
 }
 #search-bar{
-width: 499px;
+width: 465px;
 }
 input{
-    border: 0px;
-    text-align: start;
+   align-items: center;
+   border: 0px;
+   height: 9px;
     line-height: 16px;
     font-size: 16px;
-    padding: 15px;
+    padding: 18px;
 }
 #lense{
-    width: 60px;
-    text-align: match-parent;
+    width: 38px;
     background-color: #202340;
     color: white;
     border-radius: 0px 45px 45px 0px;
 }
-#lense>img{
-    padding: 15px 25px 15px 15px;
-    width: 24px;
-    height: 24px;
+#lense:hover{
+cursor: pointer;
 }
+#lense>svg{
+
+    fill: white;
+    padding-top: 15px;
+    margin-left: 5px;
+    
+}
+#layered-sale{
+    margin-left: 240px;   
+}
+#layered-sale>img{
+  width: 300px;
+  height: 50px;  
+}
+#layered-sale>img:hover{
+   cursor: pointer;
+  }
 #header-bottom{
     display: flex;
     margin-left: 25px;
     display: flex;
-
 }
 #header-bottom>img:hover{
     color: #0098b8;
 }
-#nav{
+#hamburger-text{
+   display: flex;
+   margin: 15px;
+}
+#hamburger-text:hover{
+    color: #02bdd5;
+    fill: #02bdd5;
+    cursor: pointer;
+}
+span{
     display: flex;
+    padding: 5px;
+   
 }
 #user-section{
     display: flex;
+    margin-bottom: 20px;
+    padding-left: 100px;
+   
 }
+#user-section>div{
+    display: flex;
+    margin: auto;
+
+}
+.user-section-svg{
+padding-left: 28px;
+}
+.user-section-svg>svg{
+    width: 24px;
+    height: 24px;
+    }
+#user-section>div:hover{
+    color: #02bdd5;
+    fill: #02bdd5;
+    cursor: pointer;
+}
+
+
 ul{
-    margin-left: 120px;
+    margin-left: 110px;
     list-style: none;
     line-height: 16px;
+    display: flex;
+    margin-top:17px;
+   
 }
 ul>li{
+    
     font-size: 16px;
     line-height: 14px;
-    margin: 10px;
+    margin: 7px;
+   
 }
 li:hover{
     color: #0098b8;
+    cursor: pointer;
 }
 
 #user-section{
-
     justify-content: space-between;
     padding-top: 15px;
     margin-left:100px ;
     margin-right: 30px; ;
 }
-#user-section>img{
-    padding-left: 100px;
-    width: 32px;
-    height: 32px;
-}
-#user-section>img:hover{
-    color: #02bdd5;
-}
+
 
