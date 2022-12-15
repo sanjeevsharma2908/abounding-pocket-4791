@@ -1,9 +1,10 @@
 #footer{
     background-color: #545871;
+    
 }
 #footer-child-1{
     display: flex;
-   
+
 }
 .text-white{
     cursor: pointer ;
@@ -20,7 +21,7 @@
     text-align: start;
     font-size: 12px;
     height: 0px;
-    width: 300px;
+    width: 280px;
     margin-top: 11px;
     border:0px;
     padding: 16px;
@@ -58,7 +59,7 @@ hr{
     display: flex;
 }
 #social-media{
-    margin-left: 420px;
+    margin-left: 400px;
     display: flex;
     border: 1px solid rd;
 }
@@ -137,8 +138,19 @@ font-family: Roboto,Arial, Helvetica, sans-serif;
 #tandc>a{
     color: #545871;
 }
-#lecence{
+#licence{
     width: 100%;
     display: flex;
     margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+}
+#licence>div{
+
+}
+#licence>div>img{
+   height: 100px;
+   width: 100px;
+   padding: 10px;
+   
 }

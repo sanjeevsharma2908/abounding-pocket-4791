@@ -3,6 +3,7 @@
     padding: 0px;
 }
 #header{
+    width: 100%;
     background-color: #f0f1f7;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     color: rgb(86, 67, 67);

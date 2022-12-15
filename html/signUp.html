@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/sideBar.css">
-    <link rel="stylesheet" href="style/footer.css">
-	<link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/sideBar.css">
+    <link rel="stylesheet" href="/style/footer.css">
+	<link rel="stylesheet" href="/style/signUp.css">
    
-    <title>Tol-Mol</title>
+    <title>create-my-account</title>
 </head>
 <body>
     <header>
@@ -17,7 +17,7 @@
         <div id="header">
             <div id="header-top">
                 <div id="logo">
-					<img id="logo-clicked" src="resources/assets/asset 0.svg" alt=""></div>
+					<img id="logo-clicked" src="/resources/assets/asset 0.svg" alt=""></div>
                 <div id="all-dept-search-bar">
                     <div id="drop-down"> 
                         <select name="" id="">
@@ -42,7 +42,7 @@
                     </div>
                 </div>
 				<div id="layered-sale">
-					<img src="resources/assets/asset 4.jpeg" alt="">
+					<img src="/resources/assets/asset 4.jpeg" alt="">
 				</div>
             </div>
             <div id="header-bottom">
@@ -78,44 +78,62 @@ id="hamburger"                                 width="24">                      
         </div>
     </header>
 
-	<!-- Space for Home Page Content -->
-	<div id="cashback">
-		
-		<div><p>Your Shop Consulatant is <span>SHOP.COM</span></p></div>
-		<div> Earn up to <span>50% <img src="/resources/assets/doller_sign.png" alt=""></span></div>
-	</div>
-	<div  id="learn-more">
-		<div>
-			<h2>$50,009,502</h2>
-			<p>&nbsp awarded in <img src="/resources/assets/doller_sign.png" alt="">Cashback!</p>
-			<button>Learn More</button>
-		</div>
-	</div>
-	<div id="banner">
-		<img src="/resources/assets/asset 9.jpeg" alt="">
-	</div>
-	<div class="four-card-per-row">
-		<div>
-			<p>Featured : Cinnamon My Stylin Pony</p>
-			<img src="/resources/assets/asset 10.jpeg" alt="">
-		</div>
-		<div>
-			<p>Complimentry Shipping Returns and Gift Packaging Available</p>
-			<img src="/resources/assets/asset 11.jpeg" alt="">
-		</div>
-		<div>
-			<p>Complimentry Shipping Returns and Gift Packaging Available</p>
-			<img src="/resources/assets/grid-3.png" alt="">
-		</div>
-		<div>
-			<p>Complimentry Shipping Returns and Gift Packaging Available</p>
-			<img src="/resources/assets/asset 11.jpeg" alt="">
-		</div>
-		
-	</div>
-
-
 </body>
+	<!-- This is the Create Account Page
+	Refer to the signUp.css for style
+	Refer to the signUp.js for script -->
+	<div id="signup-main">
+		<h2>Create an account</h2>
+		<p>* Indicates required field</p>
+		<div id="form">
+			<div id="form-left"><form action="">
+				<p>Given Name*</p>
+				<input type="text" name="Given Nane*" id="" class="input-box" placeholder="Given name here">
+				<p> Email address*</p>
+				<input type="text" name="Given Nane*" id="" class="input-box" placeholder="Yourname@example.com">
+				<p>Password* (At least 7 Characters)</p>
+				<input type="text" name="Given Nane*" id="" class="input-box" placeholder="Please Enter a minimum of 7 Characters">
+
+			</form></div>
+			<div id="form-right" >
+				<form action="">
+					<p>Surename*</p>
+				<input type="text" name="Given Nane*" id="" class="input-box" placeholder="Surename">
+				<div id="conf-pass"></div>
+				<p >Confirm Password*</p>
+				<input type="text" name="Given Nane*" class="input-box" placeholder="Please eenter your Password"></div>
+				</form>
+		</div>
+		<h3 id="alert">Text Message(SMS Alerts : (Optional)</h3>
+		<label class="container">Do you want to sign up for shopper alerts from SHOP.COM?( Message and data rates may apply.)
+			<input type="checkbox" checked="checked">
+			<span class="checkmark"></span>
+		  </label>
+		  <p id="mob-number">Enter a mobile number</p>
+		  <input type="text" name="Given Nane*" id="" class="input-box" placeholder="Please enter your 10-11 digitd mobile phone number (i.e. 01012345)">
+		  <div id="refferal">
+			<p>Were you reffered by a Friend?</p>
+			<p>Enter their email addres(Optional)</p>
+			<input type="text" class="input-box" placeholder="">
+		  </div>
+		  <p id="consultant">Your Shop Consultant is SHOP.COM</p>
+		  <div id="email-updates">
+			<h3>Email deals: (Optional)</h3>
+			<label class="container">Do you want to sign up for sweet email offers and discount from SHOP.COM?
+				<input type="checkbox" checked="checked">
+				<span class="checkmark"></span>
+			  </label>
+			  <br>
+			  <label class="container">Do you want to sign up for sweet email offers and discount from MarketAmerica.com and its brands?
+				<input type="checkbox" checked="checked">
+				<span class="checkmark"></span>
+			  </label>
+		  </div>
+		  <!-- submit button -->
+		  <button type="submit" id="submit-btn">Create your new Account</button>
+		  <p>By Creating an account, you are agrreing to our <a class="a-text" href="#">Terms of Services</a> amd <a class="a-text"href="#">Privicy Policy</a></p>
+	</div>
+	
   <!-- This is going to be the footer -->
   <footer>
 	<div id="footer">
