@@ -43,15 +43,51 @@ body{
 cursor: pointer;
 }
 .four-card-per-row{
-    padding: 10px;
-    width: 100%;
-    border: 1px solid black;
+    padding:10px 10px;
+    width: 98%;
+    background-color: #f0f1f7;
     height: auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
 }
 .four-card-per-row>div{
-    padding: 10px;
+    background-color: white;
+    padding: 20px 0px 10px 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#sign-in{
+    width: 90%;
+    margin: auto;
+}
+.four-card-per-row>div>a{
+    color: #2e2c38;
+    display: block;
+}
+.four-card-per-row>div>a:hover{
+    color: #00a8ca;
+    display: block;
+}
+.four-card-per-row>div>div>button{
+    display: block;
+    margin-top: 15px;
+    margin-bottom:15px ;
+    height: 40px;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #545871;
+    border: 0px;
+    color: white;
+}
+.four-card-per-row>div>div>button:hover{
+    
+    background-color: rgb(14,14,14);
+    color: white;
+}
+#perfect-gift-parent-div{
+    display: flex;
+}
+#child-2{
+    display: flex;
 }
