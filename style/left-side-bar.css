@@ -1,0 +1,62 @@
+body{
+    margin: auto;
+    font-family: roboto,Helvetica, sans-serif;
+}
+#sidebar{
+    width: 300px;
+    height: auto;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    white-space: nowrap;
+    overflow-y: scroll;
+    margin: 0 auto;
+
+    
+}
+.sidebar-item{
+    display: flex;
+    text-decoration: none;
+    color: rgb(88, 84, 84);
+    padding: 1em;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+ 
+}
+.account-section{
+    display: flex;
+    text-decoration: none;
+    color: rgb(88, 84, 84);
+    padding: .5em;
+    align-items: center;
+    cursor: pointer;
+    height: 1.2em;
+}
+.account-section:hover{
+    background-color: rgb(206, 204, 216);
+   
+}
+.sidebar-item>svg{
+    width: 10px;
+    height: 10px;
+    
+    /* margin-left:170px ; */
+
+
+}
+.sidebar-item:hover{
+    background-color: rgb(206, 204, 216);
+    color: aqua;
+}
+#sidebar>img{
+width: 30px;
+height: 30px;
+
+}
+.pre-icon{
+    width: 50px;
+    height: 20px;
+}

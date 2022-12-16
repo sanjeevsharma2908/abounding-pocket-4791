@@ -1,4 +1,5 @@
 body{
+    color: #3e3f46;
     font-family: roboto, Arial, Helvetica, sans-serif;
 }
 #cashback{
@@ -88,6 +89,106 @@ cursor: pointer;
 #perfect-gift-parent-div{
     display: flex;
 }
+.popular-brands{
+font-size: 30px;
+margin-top: 20px;
+text-align: center;
+margin-bottom: 60px;
+}
+#perfect-gift-parent-div>div>img{
+    width: 90%;
+}
+#perfect-gift-parent-div>div>img:hover{
+   cursor: pointer;
+}
 #child-2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-top: 15px;
+    gap: 8px;
+    margin-bottom: 100px;
+}
+#child-2>img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 97%;
+    height: 130px;
+    
+}
+#img-promo{
     display: flex;
+}
+#img-promo>div>img{
+    padding: 10px;
+}
+.promo-text-1{
+    text-align: center;
+    font-weight: bold;
+}
+.promo-text-1>img{
+    height: 15px;
+    width: 30px;
+}
+.promo-text-1+p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.flex-3-img{
+    padding-bottom: 30px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.flex-3-img>div>img{
+    width: 400px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.grid-6{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+
+}
+.grid-6>div{
+   
+width: 100%;
+}
+.grid-6>div:hover{
+    width: 100%;
+    cursor: pointer;
+}
+.grid-6>div>img{
+
+    border-radius: 100px;
+    border: 10px solid rgb(163, 157, 157);
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+.grid-6>div>p{
+    text-align: center;
+    font-weight: bold;
+    color: #545871;
+}
+.grid-4{
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    padding: 10px;
+    gap: 1px;
+}
+.grid-4>div>img{
+    margin-bottom: 10px;
+    width: 96%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
