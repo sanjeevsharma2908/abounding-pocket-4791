@@ -4,7 +4,7 @@ body{
 }
 #sidebar{
     width: 300px;
-    height: auto;
+    height: 800px;
     background-color: #ffffff;
     position: fixed;
     top: 0;
@@ -13,14 +13,12 @@ body{
     white-space: nowrap;
     overflow-y: scroll;
     margin: 0 auto;
-
-    
 }
 .sidebar-item{
     display: flex;
     text-decoration: none;
     color: rgb(88, 84, 84);
-    padding: 1em;
+    padding: .5em;
     align-items: center;
     cursor: pointer;
     justify-content: space-between;
