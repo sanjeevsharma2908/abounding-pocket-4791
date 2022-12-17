@@ -61,7 +61,12 @@
 select{
     border: 0px;
     text-decoration-style: none;
+    margin-left: 10px;
 }
+.select-search-bar{
+    border: 1px solid red;
+}
+
 #search-bar{
 width: 465px;
 }
@@ -132,6 +137,10 @@ span{
     margin: auto;
 
 }
+#account{
+    display: flex;
+    width: auto;
+}
 .user-section-svg{
 padding-left: 28px;
 }
@@ -143,6 +152,9 @@ padding-left: 28px;
     color: #02bdd5;
     fill: #02bdd5;
     cursor: pointer;
+}
+#account{
+    
 }
 
 

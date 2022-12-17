@@ -2,13 +2,13 @@ body{
     margin: auto;
     font-family: roboto,Helvetica, sans-serif;
 }
-#sidebar{
+#right-sidebar{
     width: 0px;
     height: 100vh;
     background-color: #ffffff;
-    position: fixed;
+    position:fixed;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 2;
     white-space: nowrap;
     overflow: scroll;
@@ -21,11 +21,11 @@ body{
     background-color: aliceblue;
     position: relative;
     top: 0;
-    left: 0;
-    z-index: 1;
+    right: 0;
+    z-index: 2;
     display: none;
 }
-.sidebar-item{
+.right-sidebar-item{
     display: flex;
     text-decoration: none;
     color: rgb(88, 84, 84);
@@ -49,7 +49,7 @@ body{
     background-color: rgb(206, 204, 216);
    
 }
-.sidebar-item>svg{
+.right-sidebar-item>svg{
     width: 10px;
     height: 10px;
     
@@ -57,21 +57,21 @@ body{
 
 
 }
-.sidebar-item:hover{
+.right-sidebar-item:hover{
     background-color: rgb(206, 204, 216);
     color: aqua;
 }
-#sidebar-child-div{
+#right-sidebar-child-div{
     display: flex;
-}#sidebar-child-div>svg{
-    width: 60px;
-    height: 60px;
+}#right-sidebar-child-div>svg{
+    width: 50px;
+    height: 50px;
 }
-#sidebar-child-div>h1{
-    margin-top: 18px;
-    margin-right: 20px;
+#right-sidebar-child-div>h1{
+    margin-top: 15px;
+    margin-right: 80px;
 }
-#sidebar-child-div>img{
+#right-sidebar-child-div>img{
 width: 30px;
 height: 30px;
 padding: 5px;
@@ -83,7 +83,7 @@ border-radius: 50px;
     width: 50px;
     height: 20px;
 }
-#sidebar>h3{
+#right-sidebar>h3{
     /* border: 1px solid red; */
     margin: 15px 0 10px 15px;
     font-weight: bold;
