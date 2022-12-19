@@ -1,4 +1,5 @@
 body{
+    z-index: ;
     color: #3e3f46;
     font-family: roboto, Arial, Helvetica, sans-serif;
 }
@@ -15,6 +16,7 @@ body{
     width: 30px;
 }
 #learn-more{
+  
     width: 100%;
     margin: auto;
     margin-bottom: 20px;
@@ -191,4 +193,75 @@ width: 100%;
     margin-bottom: 10px;
     width: 96%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.products-grid-4{
+    padding-top: 20px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 98%;
+    gap: 1px;
+}
+.products-grid-4>div{
+    padding: 8pxpx;
+    margin-top: 15px;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+
+.products-grid-4>div>img{
+    margin: auto;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.products-grid-4>div>hr{
+    width: 83%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.products-grid-4>div>h2{
+    text-align: center;
+    padding-bottom:5px;  
+    padding-top: 10px;
+
+}
+.products-grid-4>div>p{
+    text-align: center;
+}
+.products-grid-4>div>div{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+ 
+}
+.products-grid-4>div>div>button{
+
+    color: rgb(59, 59, 132);
+    font-weight: bold;
+    display: block;   
+    border-radius: 10px;
+    border: none;
+    background-color: #b5bfbc;
+    font-size: 18px;
+    width: 130px;
+    padding: 5px;
+    padding-left: 14px;
+}
+.products-grid-4>div>div>button:hover{
+
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: block;   
+    border-radius: 10px;
+    border: none;
+    background-color: #164d8f;
+    font-size: 18px;
+    width: 130px;
+    padding: 5px;
+    padding-left: 14px;
 }

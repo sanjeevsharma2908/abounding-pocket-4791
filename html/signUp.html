@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/footer.css">
     <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/index.css">
 	<link rel="stylesheet" href="/style/left-side-bar.css">
 	<link rel="stylesheet" href="/style/right-side-bar.css">
+	<link rel="stylesheet" href="/style/sideBar.css">
+	<link rel="stylesheet" href="/style/signIn.css">
 	<link rel="stylesheet" href="/style/signUp.css">
    
-    <title>create-my-account</title>
+    <title>Shop.com/create-my-account</title>
 </head>
 <body>
     <header>
@@ -21,19 +24,20 @@
 					<img id="logo-clicked" src="/resources/assets/asset 0.svg" alt=""></div>
                 <div id="all-dept-search-bar">
                     <div id="drop-down"> 
-                        <select name="" id="">
-                            <option value="">All Department</option>
-                            <option value="">Auto</option>
-                            <option value="">Baby</option>
-                            <option value="">Beuty</option>
-                            <option value="">Books</option>
-                            <option value="">Business</option>
-                            <option value="">Cameras</option>
-                            <option value="">Clothes</option>
-                            <option value="">Colletibles</option>
-                            <option value="">Computeres</option>
+                        <select name="">
+                            <option class="select-search-bar" value="">All Department</option>
+                            <option class="select-search-bar" value="">Auto</option>
+                            <option class="select-search-bar" value="">Baby</option>
+                            <option class="select-search-bar" value="">Beuty</option>
+                            <option class="select-search-bar" value="">Books</option>
+                            <option class="select-search-bar" value="">Business</option>
+                            <option class="select-search-bar" value="">Cameras</option>
+                            <option class="select-search-bar" value="">Clothes</option>
+                            <option class="select-search-bar" value="">Colletibles</option>
+                            <option class="select-search-bar" value="">Computeres</option>
                         </select>
                     </div>
+					<div style="height: 80; margin: auto; ;">|</div>
                 
                     <div id="search-bar">
                         <input type=text placeholder="Search SHOP.COM....">
@@ -64,15 +68,27 @@ id="hamburger"                                 width="24">                      
                 <li>ShopBuddy</li>
                 <li>SHOP Local</li>
             </ul></div>
-                <div id="user-section" >
+                <div id="user-section"  >
                     <div class="user-section-svg">
-						<svg  xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg><span>Sign in</span>
+						<div id ="account" class="redirect-right">
+							<svg  xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+							<span>Sign in</span>
+						</div>
 					</div>
                     <div class="user-section-svg">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24"><path d="M0,0H24V24H0Z" fill="none"/><path d="M12.5,3a9,9,0,0,0-9,9H.5l4,4,4-4h-3a7,7,0,1,1,2.94,5.7L7,19.14A9,9,0,1,0,12.5,3Z"/></svg><span>Order</span>
+                        <div id="order" class="redirect-right">
+							<svg xmlns="http://www.w3.org/2000/svg" height="24" 
+							viewBox="0 0 24 24"><path d="M0,0H24V24H0Z" fill="none"/><path d="M12.5,3a9,9,0,0,0-9,9H.5l4,4,
+							4-4h-3a7,7,0,1,1,2.94,5.7L7,19.14A9,9,0,1,0,12.5,3Z"/></svg><span>Order</span>
+						</div>
                     </div>
-       				<div class="user-section-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg> <span>Cart</span>
+       				<div class="user-section-svg" >
+						<div id="cart" class="redirect-right">
+							<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" 
+							width="24"><path d="M0 0h24v24H0z" fill="none"/>
+							<path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+						</svg> <span>Cart</span>
+						</div>
        			 	</div>
                 </div>
             </div>
@@ -251,9 +267,12 @@ id="hamburger"                                 width="24">                      
 		</div>
 	<hr>
 	   </div>
+	  
 
-</body>
-	<!-- This is the Create Account Page
+
+	<!-- Space for Home Page Content -->
+	
+<!-- This is the Create Account Page
 	Refer to the signUp.css for style
 	Refer to the signUp.js for script -->
 	<div id="signup-main">
@@ -262,20 +281,21 @@ id="hamburger"                                 width="24">                      
 		<div id="form">
 			<div id="form-left"><form action="">
 				<p>Given Name*</p>
-				<input type="text" name="Given Nane*" id="name" class="input-box" placeholder="Given name here">
+				<input type="text" name="Given Nane*" id="firstName" class="input-box" placeholder="Given name here">
 				<p> Email address*</p>
-				<input type="text" name="Given Nane*" id="" class="input-box" placeholder="Yourname@example.com">
+				<input type="text" name="Given Nane*" id="email" class="input-box" placeholder="Yourname@example.com">
 				<p>Password* (At least 7 Characters)</p>
-				<input type="text" name="Given Nane*" id="" class="input-box" placeholder="Please Enter a minimum of 7 Characters">
+				<input type="text" name="Given Nane*" id="password" class="input-box" placeholder="Please Enter a minimum of 7 Characters">
 
 			</form></div>
 			<div id="form-right" >
 				<form action="">
 					<p>Surename*</p>
-				<input type="text" name="Given Nane*" id="" class="input-box" placeholder="Surename">
+				<input type="text" name="Given Nane*" id="lastName" class="input-box" placeholder="Surename">
 				<div id="conf-pass"></div>
 				<p >Confirm Password*</p>
-				<input type="text" name="Given Nane*" class="input-box" placeholder="Please eenter your Password"></div>
+				<input type="text" name="Given Nane*"  id="password-conf"
+				class="input-box" placeholder="Please eenter your Password"></div>
 				</form>
 		</div>
 		<h3 id="alert">Text Message(SMS Alerts : (Optional)</h3>
@@ -307,7 +327,8 @@ id="hamburger"                                 width="24">                      
 		  <button type="submit" id="submit-btn">Create your new Account</button>
 		  <p>By Creating an account, you are agrreing to our <a class="a-text" href="#">Terms of Services</a> amd <a class="a-text"href="#">Privicy Policy</a></p>
 	</div>
-	
+
+</body>
   <!-- This is going to be the footer -->
   <footer>
 	<div id="footer">
@@ -400,8 +421,10 @@ id="hamburger"                                 width="24">                      
 
 	</div>
 </footer>
+<script src="/script/header.js"></script>
+<script src="/script/index.js"></script>
 <script src="/script/leftSideBar.js"></script>
 <script src="/script/rightSideBar.js"></script>
-<script src="/script/header.js"></script>
+<script src="/script/signIn.js"></script>
 <script src="/script/signUp.js"></script>
 </html>

@@ -6,7 +6,7 @@
    menuOpen=true;
    overlay.style.display="block"
    sidebar.style.width="300px"
-   sidebar.style.overflow = "scroll";
+   sidebar.style.overflow = "hidden";
    
    }
  
