@@ -1,7 +1,7 @@
 
 const signIn = document.getElementById("account");
 const rightSidebar = document.getElementById("right-sidebar");
-const rightOverlay = document.getElementById("overlay");
+const rightOverlay = document.getElementById("right-overlay");
 const rightCancel = document.getElementById("right-cancel");
 
 let isOpen = false;
@@ -26,6 +26,7 @@ signIn.addEventListener("click",()=>{
 })
 
 rightCancel.addEventListener("click",()=>{
+    console.log("sjhhlasdgau")
     isOpen=false;
     if(isOpen){
         sideBarClose();

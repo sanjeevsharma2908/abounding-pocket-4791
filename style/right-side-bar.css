@@ -15,15 +15,15 @@ body{
    padding: 10px 10px 10px 0px;
    transition: width .5s ease;
 }
-#overlay{
-    width: 100vw;
+#right-overlay{
+    /* width: 100vw;
     height: 100vh;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     position: relative;
     top: 0;
     right: 0;
-    z-index: 2;
-    display: none;
+    z-index: 1;
+    display: none; */
 }
 .right-sidebar-item{
     display: flex;

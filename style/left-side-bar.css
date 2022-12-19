@@ -1,5 +1,8 @@
+*{
+    margin-left: 0px;
+}
 body{
-    margin: auto;
+
     font-family: roboto,Helvetica, sans-serif;
 }
 #sidebar{
@@ -11,15 +14,16 @@ body{
     left: 0;
     z-index: 2;
     white-space: nowrap;
-    overflow: scroll;
-   padding: 10px 10px 10px 0px;
-   transition: width .5s ease;
+    overflow: hidden;
+    padding: 10px 10px 10px 0px;
+    transition: width .5s ease;
+   
 }
 #overlay{
     width: 100vw;
     height: 100vh;
-    background-color: aliceblue;
-    position: relative;
+    background-color: rgba(0, 0, 0,0.4);
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
